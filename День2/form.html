@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>JavaScript Intensive. Second day</title>
+    <style>.error {  color: red;  }</style>
+</head>
+<body>
+<form action="#" method="post" class="simpleForm">
+    <section>
+        <div><label for="fullName">Full Name</label></div>
+        <div><input type="text" id="fullName" class="formField" placeholder="Your full name"></div>
+    </section>
+    <section>
+        <div><label for="password">Password</label></div>
+        <div><input type="password" id="password" class="formField" placeholder="Enter your password"></div>
+    </section>
+    <section>
+        <div><label for="passwordConf">Confirmation password</label></div>
+        <div><input type="password" id="passwordConf" class="formField"
+                    placeholder="Please, confirmation password"></div>
+    </section>
+    <section>
+        <div><label for="where">Where</label></div>
+        <div>
+            <select id="where" class="formField">
+                <option></option>
+                <option value="Developer">Developer</option>
+                <option value="User">User</option>
+            </select>
+        </div>
+    </section>
+    <section>
+        <div><label for="message">Message</label></div>
+        <div><textarea id="message" class="formField"></textarea></div>
+    </section>
+    <input type="submit" id="sendForm" value="Send">
+</form>
+
+<script src="./main.js"></script>
+</body>
+</html>
