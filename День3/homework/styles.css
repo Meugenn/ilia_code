@@ -1,0 +1,86 @@
+.body{
+    font-family: "Segoe UI", "Monaco", "Arial" , sans-serif;
+}
+
+.product{
+    font-family:  "Monaco", "Arial" , sans-serif;
+    width:150px;
+    height: 150px;
+    border: 2px solid darkgray;
+    margin-right:20px;
+    padding: 10px;
+    display:inline-block;
+    margin-bottom: 10px;
+}
+
+.products{
+    width:50%;
+    border-right: 2px solid darkgray;
+    float:left;
+}
+
+.addProduct{
+    background: red;
+    border:0;
+    height: 40px;
+    width:120px;
+    margin-top: 20px;
+    color:white;
+}
+.basket{
+    font-family:  "Monaco", "Arial" , sans-serif;
+    float:right;
+    width:45%;
+    margin-left: 10px;
+    font-size:20px;
+
+}
+.basketProduct{
+    display:block;
+    border:2px solid gray;
+    margin:10px;
+    padding: 10px;
+    width:300px;
+    height:40px;
+    vertical-align: middle;
+}
+
+.deleteAll{
+    border: 2px solid black;
+    background: lightcoral;
+    width: 40px;
+    height: 40px;
+    text-align:center;
+    vertical-align: middle;
+    font-size: 30px;
+    color:white;
+    float:right;
+    margin-right:10px;
+}
+
+.basketTitle{
+    /*font-weight: bold;*/
+    font-size:50px;
+    margin-left:85px;
+}
+
+.total{
+    margin-top:20px;
+    border-top:2px solid gray;
+    float:left;
+    width:80%;
+    padding-top:20px;
+}
+
+.deleteElement{
+    width:40px;
+    height:40px;
+    border:2px solid gray;
+    color:white;
+    background-color: darkorange;
+    float:right;
+    margin-right:5px;
+    font-size:30px;
+    text-align:center;
+    vertical-align: top;
+}

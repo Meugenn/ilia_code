@@ -1,0 +1,33 @@
+.exampleTabs {
+    width: 500px;
+    margin: 10px auto;
+}
+
+.headerTabs {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.headerTab {
+    width: 20%;
+    height: 35px;
+    background: white;
+    text-align: center;
+    border: 1px solid darkolivegreen;
+    cursor: pointer;
+}
+
+.activeHeader {  background: forestgreen;  }
+
+.bodyTab {
+    height: 100px;
+    display: none;
+    text-align: center;
+    border: 1px solid forestgreen;
+    border-top: none;
+    box-sizing: border-box;
+    padding-top: 35px;
+}
+
+.activeBody {  display: block;  }
